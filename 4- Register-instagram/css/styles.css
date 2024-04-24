@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+#container a {
+  text-decoration: none;
+  color: #004ba0;
+}
+
+#main-container {
+  width: 345px;
+  margin: 1rem auto 0.7rem;
+  padding: 2.5rem;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#box-header {
+  margin-bottom: 30px;
+}
+
+#box-header img {
+  height: 50px;
+  margin: 10px 0 15px;
+}
+
+#box-header h2 {
+  font-size: 15px;
+  line-height: 18px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+#box-header #face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #50a1fd;
+  padding: 0.6rem 3.2rem;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 8px;
+}
+
+#box-header #face i {
+  font-size: 16px;
+  margin-top: -2px;
+}
+
+#box-header #face:hover {
+  background-color: #4082ce;
+}
+
+#line {
+  border-top: 1px solid #ccc;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+#line span {
+  position: absolute;
+  width: 50px;
+  background-color: #fff;
+  top: -8px;
+  margin-left: -28px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.box-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.box-input input {
+  background-color: #f8f8f8;
+  padding: 8px;
+  height: 38px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.box-input input::placeholder {
+  font-size: 12px;
+  color: #969696;
+}
+
+form p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+form input[type="submit"] {
+  background-color: #5ea9ff;
+  margin: 0 auto;
+  padding: 0.5rem 5.8rem;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+}
+
+#conect {
+  width: 345px;
+  height: 70px;
+  margin: 0 auto 1rem;
+  padding-top: 1.5rem;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#conect a {
+  color: #50a1fd;
+}
+
+#under-box p {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#apps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5rem;
+}
+
+#apps img {
+  height: 40px;
+}
+
+footer {
+  margin-bottom: 4rem;
+}
+
+footer ul {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto 15px;
+}
+
+#nav-links li,
+#nav-links a {
+  list-style: none;
+  text-decoration: none;
+  color: #555;
+  font-size: 12px;
+}
+
+#nav-links a:hover {
+  text-decoration: underline;
+}
+
+footer #lan-credt {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 12px;
+  color: #555;
+}
