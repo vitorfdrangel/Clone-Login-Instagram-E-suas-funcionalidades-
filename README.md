@@ -1,1 +1,1 @@
-Desenvolvi este projeto em que fiz um clone da página de login do Instagram e todas as funcionalidades nela presente (página de "Entrar com Facebook", "Esqueci minha senha", "Cadastre-se", etc), para praticar e aprimorar minhas habilidades com HTML e CSS.
+Desenvolvi este projeto em que fiz um clone da página de login do Instagram e todas as funcionalidades nela presentes (página de "Entrar com Facebook", "Esqueci minha senha", "Cadastre-se", etc), para praticar e aprimorar minhas habilidades com HTML e CSS.
